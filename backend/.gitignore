@@ -1,0 +1,6 @@
+# ignore node modules folder
+node_modules/
+
+# ignore the firebase admin sdk
+# (instead manually copy this over to whichever location requires it)
+firebase-admin-sdk.json

@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Tangled' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Tangled
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+  
+
+  target 'TangledTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TangledUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

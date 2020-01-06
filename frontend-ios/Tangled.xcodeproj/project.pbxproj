@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39B10BDC48F502148F35775D /* Pods_TangledUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D1A29D6FA5C51705C54DCB /* Pods_TangledUITests.framework */; };
+		87C1FD5DBFB8B56F0A026290 /* Pods_TangledTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F139EA490999D6BC13678ED /* Pods_TangledTests.framework */; };
+		AD2FC85B225CDF60004EAC3E /* BioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2FC85A225CDF60004EAC3E /* BioViewController.swift */; };
+		AD75E76022348C8B00662E0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD75E75F22348C8B00662E0C /* AppDelegate.swift */; };
+		AD75E76522348C8B00662E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD75E76322348C8B00662E0C /* Main.storyboard */; };
+		AD75E76722348C8D00662E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD75E76622348C8D00662E0C /* Assets.xcassets */; };
+		AD75E76A22348C8D00662E0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD75E76822348C8D00662E0C /* LaunchScreen.storyboard */; };
+		AD75E77522348C8D00662E0C /* TangledTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD75E77422348C8D00662E0C /* TangledTests.swift */; };
+		AD75E78022348C8D00662E0C /* TangledUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD75E77F22348C8D00662E0C /* TangledUITests.swift */; };
+		ADF8AFBF2255217600990B91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADF8AFBE2255217600990B91 /* GoogleService-Info.plist */; };
+		ADF8AFC12255259E00990B91 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ADF8AFC02255259E00990B91 /* Podfile */; };
+		ADF8AFC32255CA0800990B91 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF8AFC22255CA0800990B91 /* StartViewController.swift */; };
+		ADF8AFC52255CA1700990B91 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF8AFC42255CA1700990B91 /* LoginViewController.swift */; };
+		ADF8AFC72255CA2A00990B91 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF8AFC62255CA2A00990B91 /* RegisterViewController.swift */; };
+		ADF8AFC92255CA4100990B91 /* MatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF8AFC82255CA4100990B91 /* MatchesViewController.swift */; };
+		ADF8AFCB2255E79900990B91 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF8AFCA2255E79900990B91 /* Database.swift */; };
+		ADF8AFD12255E8D100990B91 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF8AFD02255E8D100990B91 /* Match.swift */; };
+		ADF8AFD32255E91000990B91 /* ChatItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF8AFD22255E91000990B91 /* ChatItem.swift */; };
+		ADF8AFD52255EE0E00990B91 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF8AFD42255EE0E00990B91 /* profileViewController.swift */; };
+		E094155EF9176508DD9A5924 /* Pods_Tangled.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5B431DB9D7266AD413C859 /* Pods_Tangled.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD75E77122348C8D00662E0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD75E75422348C8B00662E0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD75E75B22348C8B00662E0C;
+			remoteInfo = Tangled;
+		};
+		AD75E77C22348C8D00662E0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD75E75422348C8B00662E0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD75E75B22348C8B00662E0C;
+			remoteInfo = Tangled;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F139EA490999D6BC13678ED /* Pods_TangledTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TangledTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		266D39FB076190AA12F41E18 /* Pods-TangledTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TangledTests.debug.xcconfig"; path = "Target Support Files/Pods-TangledTests/Pods-TangledTests.debug.xcconfig"; sourceTree = "<group>"; };
+		305F6295431E3AA6B12CE874 /* Pods-Tangled.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tangled.release.xcconfig"; path = "Target Support Files/Pods-Tangled/Pods-Tangled.release.xcconfig"; sourceTree = "<group>"; };
+		31DB34D842C77AA38BD97905 /* Pods-TangledUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TangledUITests.release.xcconfig"; path = "Target Support Files/Pods-TangledUITests/Pods-TangledUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD2FC85A225CDF60004EAC3E /* BioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioViewController.swift; sourceTree = "<group>"; };
+		AD75E75C22348C8B00662E0C /* Tangled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tangled.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD75E75F22348C8B00662E0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD75E76422348C8B00662E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD75E76622348C8D00662E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD75E76922348C8D00662E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD75E76B22348C8D00662E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD75E77022348C8D00662E0C /* TangledTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TangledTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD75E77422348C8D00662E0C /* TangledTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TangledTests.swift; sourceTree = "<group>"; };
+		AD75E77622348C8D00662E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD75E77B22348C8D00662E0C /* TangledUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TangledUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD75E77F22348C8D00662E0C /* TangledUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TangledUITests.swift; sourceTree = "<group>"; };
+		AD75E78122348C8D00662E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF8AFBE2255217600990B91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ADF8AFC02255259E00990B91 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADF8AFC22255CA0800990B91 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		ADF8AFC42255CA1700990B91 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ADF8AFC62255CA2A00990B91 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		ADF8AFC82255CA4100990B91 /* MatchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewController.swift; sourceTree = "<group>"; };
+		ADF8AFCA2255E79900990B91 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		ADF8AFD02255E8D100990B91 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		ADF8AFD22255E91000990B91 /* ChatItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatItem.swift; sourceTree = "<group>"; };
+		ADF8AFD42255EE0E00990B91 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		CC5B431DB9D7266AD413C859 /* Pods_Tangled.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tangled.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9AA3F5D41992EFBCE35C2E /* Pods-Tangled.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tangled.debug.xcconfig"; path = "Target Support Files/Pods-Tangled/Pods-Tangled.debug.xcconfig"; sourceTree = "<group>"; };
+		E3D1A29D6FA5C51705C54DCB /* Pods_TangledUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TangledUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E866E60C51CB8B70B62AE659 /* Pods-TangledTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TangledTests.release.xcconfig"; path = "Target Support Files/Pods-TangledTests/Pods-TangledTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6D5BA04210B94CDFF20D180 /* Pods-TangledUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TangledUITests.debug.xcconfig"; path = "Target Support Files/Pods-TangledUITests/Pods-TangledUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD75E75922348C8B00662E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E094155EF9176508DD9A5924 /* Pods_Tangled.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD75E76D22348C8D00662E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C1FD5DBFB8B56F0A026290 /* Pods_TangledTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD75E77822348C8D00662E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B10BDC48F502148F35775D /* Pods_TangledUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD75E75322348C8B00662E0C = {
+			isa = PBXGroup;
+			children = (
+				ADF8AFC02255259E00990B91 /* Podfile */,
+				AD75E75E22348C8B00662E0C /* Tangled */,
+				AD75E77322348C8D00662E0C /* TangledTests */,
+				AD75E77E22348C8D00662E0C /* TangledUITests */,
+				AD75E75D22348C8B00662E0C /* Products */,
+				B972D7B5DA786285FF2D3DD8 /* Pods */,
+				D55333A31D75835A9DEF92F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD75E75D22348C8B00662E0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD75E75C22348C8B00662E0C /* Tangled.app */,
+				AD75E77022348C8D00662E0C /* TangledTests.xctest */,
+				AD75E77B22348C8D00662E0C /* TangledUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD75E75E22348C8B00662E0C /* Tangled */ = {
+			isa = PBXGroup;
+			children = (
+				ADF8AFCF2255E83800990B91 /* Views */,
+				ADF8AFCE2255E83000990B91 /* Models */,
+				ADF8AFCD2255E82800990B91 /* Controllers */,
+				ADF8AFBE2255217600990B91 /* GoogleService-Info.plist */,
+				AD75E75F22348C8B00662E0C /* AppDelegate.swift */,
+				AD75E76B22348C8D00662E0C /* Info.plist */,
+			);
+			path = Tangled;
+			sourceTree = "<group>";
+		};
+		AD75E77322348C8D00662E0C /* TangledTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD75E77422348C8D00662E0C /* TangledTests.swift */,
+				AD75E77622348C8D00662E0C /* Info.plist */,
+			);
+			path = TangledTests;
+			sourceTree = "<group>";
+		};
+		AD75E77E22348C8D00662E0C /* TangledUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD75E77F22348C8D00662E0C /* TangledUITests.swift */,
+				AD75E78122348C8D00662E0C /* Info.plist */,
+			);
+			path = TangledUITests;
+			sourceTree = "<group>";
+		};
+		ADF8AFCD2255E82800990B91 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADF8AFC22255CA0800990B91 /* StartViewController.swift */,
+				ADF8AFC42255CA1700990B91 /* LoginViewController.swift */,
+				ADF8AFC62255CA2A00990B91 /* RegisterViewController.swift */,
+				ADF8AFC82255CA4100990B91 /* MatchesViewController.swift */,
+				ADF8AFD42255EE0E00990B91 /* profileViewController.swift */,
+				AD2FC85A225CDF60004EAC3E /* BioViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ADF8AFCE2255E83000990B91 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ADF8AFCA2255E79900990B91 /* Database.swift */,
+				ADF8AFD02255E8D100990B91 /* Match.swift */,
+				ADF8AFD22255E91000990B91 /* ChatItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ADF8AFCF2255E83800990B91 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD75E76822348C8D00662E0C /* LaunchScreen.storyboard */,
+				AD75E76322348C8B00662E0C /* Main.storyboard */,
+				AD75E76622348C8D00662E0C /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B972D7B5DA786285FF2D3DD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC9AA3F5D41992EFBCE35C2E /* Pods-Tangled.debug.xcconfig */,
+				305F6295431E3AA6B12CE874 /* Pods-Tangled.release.xcconfig */,
+				266D39FB076190AA12F41E18 /* Pods-TangledTests.debug.xcconfig */,
+				E866E60C51CB8B70B62AE659 /* Pods-TangledTests.release.xcconfig */,
+				F6D5BA04210B94CDFF20D180 /* Pods-TangledUITests.debug.xcconfig */,
+				31DB34D842C77AA38BD97905 /* Pods-TangledUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D55333A31D75835A9DEF92F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC5B431DB9D7266AD413C859 /* Pods_Tangled.framework */,
+				1F139EA490999D6BC13678ED /* Pods_TangledTests.framework */,
+				E3D1A29D6FA5C51705C54DCB /* Pods_TangledUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD75E75B22348C8B00662E0C /* Tangled */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD75E78422348C8D00662E0C /* Build configuration list for PBXNativeTarget "Tangled" */;
+			buildPhases = (
+				1BC72578A99DE026A5B6CEEA /* [CP] Check Pods Manifest.lock */,
+				AD75E75822348C8B00662E0C /* Sources */,
+				AD75E75922348C8B00662E0C /* Frameworks */,
+				AD75E75A22348C8B00662E0C /* Resources */,
+				DBC1EA68B6C0902F9BF17CB0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tangled;
+			productName = Tangled;
+			productReference = AD75E75C22348C8B00662E0C /* Tangled.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD75E76F22348C8D00662E0C /* TangledTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD75E78722348C8D00662E0C /* Build configuration list for PBXNativeTarget "TangledTests" */;
+			buildPhases = (
+				822236B56EA0D982E9EF4A1F /* [CP] Check Pods Manifest.lock */,
+				AD75E76C22348C8D00662E0C /* Sources */,
+				AD75E76D22348C8D00662E0C /* Frameworks */,
+				AD75E76E22348C8D00662E0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD75E77222348C8D00662E0C /* PBXTargetDependency */,
+			);
+			name = TangledTests;
+			productName = TangledTests;
+			productReference = AD75E77022348C8D00662E0C /* TangledTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD75E77A22348C8D00662E0C /* TangledUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD75E78A22348C8D00662E0C /* Build configuration list for PBXNativeTarget "TangledUITests" */;
+			buildPhases = (
+				C2EEAB177EFA384113421C6D /* [CP] Check Pods Manifest.lock */,
+				AD75E77722348C8D00662E0C /* Sources */,
+				AD75E77822348C8D00662E0C /* Frameworks */,
+				AD75E77922348C8D00662E0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD75E77D22348C8D00662E0C /* PBXTargetDependency */,
+			);
+			name = TangledUITests;
+			productName = TangledUITests;
+			productReference = AD75E77B22348C8D00662E0C /* TangledUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD75E75422348C8B00662E0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Carter Sloan";
+				TargetAttributes = {
+					AD75E75B22348C8B00662E0C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AD75E76F22348C8D00662E0C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AD75E75B22348C8B00662E0C;
+					};
+					AD75E77A22348C8D00662E0C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AD75E75B22348C8B00662E0C;
+					};
+				};
+			};
+			buildConfigurationList = AD75E75722348C8B00662E0C /* Build configuration list for PBXProject "Tangled" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD75E75322348C8B00662E0C;
+			productRefGroup = AD75E75D22348C8B00662E0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD75E75B22348C8B00662E0C /* Tangled */,
+				AD75E76F22348C8D00662E0C /* TangledTests */,
+				AD75E77A22348C8D00662E0C /* TangledUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD75E75A22348C8B00662E0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF8AFC12255259E00990B91 /* Podfile in Resources */,
+				AD75E76A22348C8D00662E0C /* LaunchScreen.storyboard in Resources */,
+				ADF8AFBF2255217600990B91 /* GoogleService-Info.plist in Resources */,
+				AD75E76722348C8D00662E0C /* Assets.xcassets in Resources */,
+				AD75E76522348C8B00662E0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD75E76E22348C8D00662E0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD75E77922348C8D00662E0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BC72578A99DE026A5B6CEEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tangled-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		822236B56EA0D982E9EF4A1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TangledTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2EEAB177EFA384113421C6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TangledUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBC1EA68B6C0902F9BF17CB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tangled/Pods-Tangled-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tangled/Pods-Tangled-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD75E75822348C8B00662E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF8AFD52255EE0E00990B91 /* profileViewController.swift in Sources */,
+				ADF8AFD32255E91000990B91 /* ChatItem.swift in Sources */,
+				AD2FC85B225CDF60004EAC3E /* BioViewController.swift in Sources */,
+				ADF8AFC92255CA4100990B91 /* MatchesViewController.swift in Sources */,
+				ADF8AFC52255CA1700990B91 /* LoginViewController.swift in Sources */,
+				ADF8AFCB2255E79900990B91 /* Database.swift in Sources */,
+				ADF8AFC72255CA2A00990B91 /* RegisterViewController.swift in Sources */,
+				AD75E76022348C8B00662E0C /* AppDelegate.swift in Sources */,
+				ADF8AFC32255CA0800990B91 /* StartViewController.swift in Sources */,
+				ADF8AFD12255E8D100990B91 /* Match.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD75E76C22348C8D00662E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD75E77522348C8D00662E0C /* TangledTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD75E77722348C8D00662E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD75E78022348C8D00662E0C /* TangledUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD75E77222348C8D00662E0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD75E75B22348C8B00662E0C /* Tangled */;
+			targetProxy = AD75E77122348C8D00662E0C /* PBXContainerItemProxy */;
+		};
+		AD75E77D22348C8D00662E0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD75E75B22348C8B00662E0C /* Tangled */;
+			targetProxy = AD75E77C22348C8D00662E0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD75E76322348C8B00662E0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD75E76422348C8B00662E0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD75E76822348C8D00662E0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD75E76922348C8D00662E0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD75E78222348C8D00662E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD75E78322348C8D00662E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD75E78522348C8D00662E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9AA3F5D41992EFBCE35C2E /* Pods-Tangled.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 854X2M2K86;
+				INFOPLIST_FILE = Tangled/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs456.Tangled;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD75E78622348C8D00662E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305F6295431E3AA6B12CE874 /* Pods-Tangled.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 854X2M2K86;
+				INFOPLIST_FILE = Tangled/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs456.Tangled;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD75E78822348C8D00662E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 266D39FB076190AA12F41E18 /* Pods-TangledTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 854X2M2K86;
+				INFOPLIST_FILE = TangledTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs456.TangledTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tangled.app/Tangled";
+			};
+			name = Debug;
+		};
+		AD75E78922348C8D00662E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E866E60C51CB8B70B62AE659 /* Pods-TangledTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 854X2M2K86;
+				INFOPLIST_FILE = TangledTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs456.TangledTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tangled.app/Tangled";
+			};
+			name = Release;
+		};
+		AD75E78B22348C8D00662E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D5BA04210B94CDFF20D180 /* Pods-TangledUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 854X2M2K86;
+				INFOPLIST_FILE = TangledUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs456.TangledUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tangled;
+			};
+			name = Debug;
+		};
+		AD75E78C22348C8D00662E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31DB34D842C77AA38BD97905 /* Pods-TangledUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 854X2M2K86;
+				INFOPLIST_FILE = TangledUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs456.TangledUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tangled;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD75E75722348C8B00662E0C /* Build configuration list for PBXProject "Tangled" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD75E78222348C8D00662E0C /* Debug */,
+				AD75E78322348C8D00662E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD75E78422348C8D00662E0C /* Build configuration list for PBXNativeTarget "Tangled" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD75E78522348C8D00662E0C /* Debug */,
+				AD75E78622348C8D00662E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD75E78722348C8D00662E0C /* Build configuration list for PBXNativeTarget "TangledTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD75E78822348C8D00662E0C /* Debug */,
+				AD75E78922348C8D00662E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD75E78A22348C8D00662E0C /* Build configuration list for PBXNativeTarget "TangledUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD75E78B22348C8D00662E0C /* Debug */,
+				AD75E78C22348C8D00662E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD75E75422348C8B00662E0C /* Project object */;
+}
